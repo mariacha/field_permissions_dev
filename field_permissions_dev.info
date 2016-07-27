@@ -59,4 +59,4 @@ dependencies[] = migrate
 dependencies[] = migrate_ui
 dependencies[] = reroute_email
 
-files[] = ts_build.profile
+files[] = field_permissions_dev.profile
