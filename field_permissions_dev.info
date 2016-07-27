@@ -1,9 +1,11 @@
-name = ThinkShout Project
-description = Description of ThinkShout Project
+name = Field Permissions testing Project
+description = Installation profile for testing field permissions
 core = 7.x
 
 ; Core
 dependencies[] = block
+
+dependencies[] = help
 dependencies[] = contact
 dependencies[] = dblog
 dependencies[] = field_ui
@@ -15,48 +17,22 @@ dependencies[] = options
 dependencies[] = path
 dependencies[] = rdf
 dependencies[] = taxonomy
+dependencies[] = simpletest
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = admin_views
-dependencies[] = bean
-dependencies[] = context
-dependencies[] = context_ui
-dependencies[] = ctools
-dependencies[] = email_registration
+dependencies[] = devel
+dependencies[] = devel_generate
+dependencies[] = token
 dependencies[] = entity
 dependencies[] = entitycache
 dependencies[] = entityreference
 dependencies[] = features
-dependencies[] = globalredirect
-dependencies[] = googleanalytics
-dependencies[] = honeypot
-dependencies[] = jquery_update
 dependencies[] = libraries
-dependencies[] = link
-dependencies[] = linkit
-dependencies[] = menu_block
-dependencies[] = metatag
-dependencies[] = module_filter
-dependencies[] = navbar
-dependencies[] = navbar_flush_cache
-dependencies[] = pathauto
-dependencies[] = redis
-dependencies[] = redirect
-dependencies[] = strongarm
-dependencies[] = smart_trim
-dependencies[] = title
-dependencies[] = token
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = xmlsitemap
 
 ; Devel
-dependencies[] = coffee
-dependencies[] = devel
-dependencies[] = diff
-dependencies[] = migrate
-dependencies[] = migrate_ui
-dependencies[] = reroute_email
+dependencies[] = field_permissions
 
 files[] = field_permissions_dev.profile

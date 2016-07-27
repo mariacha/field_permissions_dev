@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # match your install profile name
-PROJECT=ts_build
+PROJECT=field_permissions_dev
 
 # pantheon, acquia, generic
-HOSTTYPE=pantheon
+HOSTTYPE=generic
 
-SITENAME="Site Name"
+SITENAME="Field permissions testing"
 
 # Copy the git repository URL from the Pantheon dashboard.
 GITREPO=
