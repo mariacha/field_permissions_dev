@@ -35,4 +35,7 @@ dependencies[] = views_ui
 ; Devel
 dependencies[] = field_permissions
 
+; Features
+dependencies[] = fp_feature
+
 files[] = field_permissions_dev.profile

@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the fp_feature feature.
  */
+
+include_once 'fp_feature.features.inc';
