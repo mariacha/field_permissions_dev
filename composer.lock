@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "37a0d7bfe66bb29098e5867f6c1ce83a",
+    "content-hash": "02b3ca8c329abb514b2dca64287c968b",
+    "packages": [
+        {
+            "name": "thinkshout/ts_build_scripts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thinkshout/ts_build_scripts.git",
+                "reference": "525c4194c2b02aefc2f1a68b8198d6f68ac05ef3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thinkshout/ts_build_scripts/zipball/525c4194c2b02aefc2f1a68b8198d6f68ac05ef3",
+                "reference": "525c4194c2b02aefc2f1a68b8198d6f68ac05ef3",
+                "shasum": ""
+            },
+            "bin": [
+                "bootstrap.sh",
+                "build.sh",
+                "deploy.sh"
+            ],
+            "type": "library",
+            "support": {
+                "source": "https://github.com/thinkshout/ts_build_scripts/tree/master",
+                "issues": "https://github.com/thinkshout/ts_build_scripts/issues"
+            },
+            "time": "2016-07-12 18:42:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "thinkshout/ts_build_scripts": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
