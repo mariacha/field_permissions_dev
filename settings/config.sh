@@ -17,6 +17,6 @@ protectfiles () {
 }
 
 postbuild () {
-  rm -r profiles/$PROJECT/modules/contrib/field_permissions;
-  ln -s ~/checkouts/field_permissions sites/all/modules/contrib/field_permissions;
+  rm -r profiles/$PROJECT/modules/contrib/field_permissions
+  ln -s ~/checkouts/field_permissions sites/all/modules/field_permissions
 }
