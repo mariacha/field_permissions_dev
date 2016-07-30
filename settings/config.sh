@@ -15,3 +15,8 @@ GITREPO=
 protectfiles () {
 	git checkout sites/default/settings.php
 }
+
+postbuild () {
+  rm -r profiles/$PROJECT/modules/contrib/field_permissions;
+  ln -s ~/checkouts/field_permissions profiles/$PROJECT/modules/contrib/field_permissions;
+}
