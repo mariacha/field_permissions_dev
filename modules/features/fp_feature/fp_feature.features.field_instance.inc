@@ -29,7 +29,7 @@ function fp_feature_field_default_field_instances() {
     'entity_type' => 'field_collection_item',
     'field_name' => 'field_family_name',
     'label' => 'Family name',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'text_processing' => 0,
       'user_register_form' => FALSE,
@@ -89,7 +89,13 @@ function fp_feature_field_default_field_instances() {
   // Exported field_instance: 'node-article-body'.
   $field_instances['node-article-body'] = array(
     'bundle' => 'article',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'summary' => '',
+        'value' => 'Body field here',
+        'format' => 'plain_text',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -112,14 +118,15 @@ function fp_feature_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'body',
-    'label' => 'Body',
-    'required' => FALSE,
+    'label' => 'Body again',
+    'required' => 0,
     'settings' => array(
-      'display_summary' => TRUE,
+      'display_summary' => 1,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 1,
       'module' => 'text',
       'settings' => array(
         'rows' => 20,
@@ -158,7 +165,7 @@ function fp_feature_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_dollars_spent',
-    'label' => 'Dollars spent',
+    'label' => 'Dollars spent 2',
     'required' => 0,
     'settings' => array(
       'max' => '',
@@ -342,7 +349,7 @@ function fp_feature_field_default_field_instances() {
     'bundle' => 'article',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Times visited is now required',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -366,7 +373,7 @@ function fp_feature_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_times_visited',
     'label' => 'Times visited',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'max' => '',
       'min' => '',
@@ -426,9 +433,13 @@ function fp_feature_field_default_field_instances() {
   // Exported field_instance: 'node-article-field_value_added'.
   $field_instances['node-article-field_value_added'] = array(
     'bundle' => 'article',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 15,
+      ),
+    ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Default value is 15',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -478,7 +489,7 @@ function fp_feature_field_default_field_instances() {
       ),
     ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Terms and conditions have been seen.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -497,7 +508,7 @@ function fp_feature_field_default_field_instances() {
     'entity_type' => 'node',
     'field_name' => 'field_yes_or_no',
     'label' => 'Yes or no',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -514,15 +525,18 @@ function fp_feature_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Body');
-  t('Dollars spent');
+  t('Body again');
+  t('Default value is 15');
+  t('Dollars spent 2');
   t('Each family has a head of household and a number of times visited.');
   t('Family name');
   t('Family sizes');
   t('Houses');
   t('Related Users');
   t('Sample file');
+  t('Terms and conditions have been seen.');
   t('Times visited');
+  t('Times visited is now required');
   t('Type something');
   t('Value added');
   t('Yes or no');

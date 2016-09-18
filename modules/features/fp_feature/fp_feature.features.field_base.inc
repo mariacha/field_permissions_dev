@@ -19,6 +19,9 @@ function fp_feature_field_default_field_bases() {
       0 => 'node',
     ),
     'field_name' => 'body',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -39,7 +42,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_dollars_spent',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(),
     'locked' => 0,
@@ -85,7 +88,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_family_sizes',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(
       'revision_id' => array(
@@ -109,9 +112,6 @@ function fp_feature_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_houses',
-    'field_permissions' => array(
-      'type' => 0,
-    ),
     'indexes' => array(
       'value' => array(
         0 => 'value',
@@ -139,9 +139,6 @@ function fp_feature_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_related_users',
-    'field_permissions' => array(
-      'type' => 0,
-    ),
     'indexes' => array(
       'target_id' => array(
         0 => 'target_id',
@@ -178,7 +175,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_sample_file',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(
       'fid' => array(
@@ -204,7 +201,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_times_visited',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(),
     'locked' => 0,
@@ -221,9 +218,6 @@ function fp_feature_field_default_field_bases() {
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_type_something',
-    'field_permissions' => array(
-      'type' => 0,
-    ),
     'indexes' => array(
       'format' => array(
         0 => 'format',
@@ -246,7 +240,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_value_added',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(),
     'locked' => 0,
@@ -266,7 +260,7 @@ function fp_feature_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_yes_or_no',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'indexes' => array(
       'value' => array(
